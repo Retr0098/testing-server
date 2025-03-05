@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    /* Переконайтеся, що шлях вірний */
+    background-image: url("pexels-dreamypixel-547114.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh; /* Додайте це! */
+}
+
+.box {
+    width: 450px;
+    background: rgba(0, 0, 0, 0.7); /* Крапка з комою в кінці */
+}
+
+.box {
+    width: 450px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    text-align: center;
+    margin: 5% auto;
+    color: white;
+    border-radius: 15px;
+}
+
+.box-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 5px solid #39930d;
+}
+
+.box h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin: 20px 0;
+}
+
+.box h5 {
+    font-size: 20px;
+    color: #8dc63f;
+    margin-bottom: 25px;
+}
+
+.box p {
+    text-align: justify;
+    line-height: 1.6;
+    margin: 0 15px;
+}

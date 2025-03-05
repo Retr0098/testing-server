@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: url('img/1-999.jpg') no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.box {
+    width: 450px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    text-align: center;
+    margin: 5% auto;
+    color: white;
+    border-radius: 15px;
+}
+
+.box-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 5px solid #39930d;
+}
+
+.box h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin: 20px 0;
+}
+
+.box h5 {
+    font-size: 20px;
+    color: #8dc63f;
+    margin-bottom: 25px;
+}
+
+.box p {
+    text-align: justify;
+    line-height: 1.6;
+    margin: 0 15px;
+}
+
+ul {
+    margin: 20px 0;
+    padding: 0;
+}
+
+.box li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.box li a {
+    color: #fff;
+    font-size: 40px;
+    transition: 0.3s;
+}
+
+.box li a:hover {
+    color: #8dc63f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+body {
+    background: url('img/52218902-software-developer.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.box {
+    width: 600px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    margin: 10% auto;
+    color: #fff;
+    text-align: center;
+    border: 3px solid #39930d;
+}
+
+.box-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    filter: grayscale(30%);
+}
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
